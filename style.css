@@ -487,3 +487,47 @@ a {
   margin-top: 70px;
   color: var(--accent);
 }
+/* CERTIFICATE CARD */
+.certificate-card {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 25px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #ffffff;
+
+  transition: all 0.25s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+}
+
+.certificate-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.certificate-info p {
+  font-size: 14px;
+  color: var(--subtext);
+}
+
+.certificate-btn {
+  text-decoration: none;
+  padding: 10px 16px;
+  border: 1px solid var(--text);
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.certificate-btn:hover {
+  background: var(--text);
+  color: #fff;
+}

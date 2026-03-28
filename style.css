@@ -681,3 +681,117 @@ a {
 .article a:hover {
   text-decoration: underline;
 }
+/* ========================= */
+/* ARTICLE UI UPGRADE (SAFE) */
+/* ========================= */
+
+/* Better typography */
+
+.article {
+  max-width: 780px;
+  margin: 100px auto;
+  padding: 0 24px;
+}
+
+/* Title upgrade */
+
+.article h1 {
+  font-size: 44px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  margin-bottom: 35px;
+}
+
+/* Paragraph readability */
+
+.article p {
+  font-size: 18px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* First paragraph emphasis */
+
+.article p:first-of-type {
+  font-size: 20px;
+  color: #111;
+}
+
+/* Date styling */
+
+.article .date {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Back link */
+
+.article a {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 15px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* ========================= */
+/* SUBTLE ANIMATIONS */
+/* ========================= */
+
+.article {
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ========================= */
+/* READING COMFORT */
+/* ========================= */
+
+/* Add breathing space between sections */
+
+.article p + p {
+  margin-top: 10px;
+}
+
+/* ========================= */
+/* HOVER LINK POLISH */
+/* ========================= */
+
+a {
+  transition: color 0.2s ease;
+}
+
+/* ========================= */
+/* OPTIONAL: SOFT PAGE FEEL */
+/* ========================= */
+
+body {
+  background: #fafafa;
+}
+
+/* Keep cards white contrast */
+
+.card,
+.project-card,
+.writing-card {
+  background: #ffffff;
+}

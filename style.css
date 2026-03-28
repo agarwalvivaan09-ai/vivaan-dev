@@ -795,4 +795,77 @@ body {
 .writing-card {
   background: #ffffff;
 }
+/* ========================= */
+/* WRITING — COMPACT CARD GRID */
+/* ========================= */
 
+.writing-container {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+/* GRID */
+
+.writing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+/* CARD */
+
+.writing-card {
+  text-decoration: none;
+  padding: 18px 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  background: #ffffff;
+
+  transition: all 0.2s ease;
+}
+
+/* DATE */
+
+.writing-card .date {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+/* TITLE */
+
+.writing-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+/* DESCRIPTION */
+
+.writing-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* HOVER */
+
+.writing-card:hover {
+  transform: translateY(-4px);
+  border-color: #ddd;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.writing-card:hover h3 {
+  color: var(--accent);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .writing-grid {
+    grid-template-columns: 1fr;
+  }
+}

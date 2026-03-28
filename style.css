@@ -285,3 +285,25 @@ a {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
+/* FORCE GRID VISIBILITY FIX */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.project-card {
+  border: 1px solid var(--border);
+  padding: 25px;
+  border-radius: 12px;
+  background: #ffffff;
+
+  min-height: 150px; /* important */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: all 0.25s ease;
+}

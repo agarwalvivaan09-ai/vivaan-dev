@@ -858,3 +858,21 @@ body {
 .writing-container {
   max-width: 750px;
 }
+
+/* ========================= */
+/* FEATURED FIRST POST */
+/* ========================= */
+
+.writing-card:first-child {
+  padding-top: 0;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #111;
+}
+
+.writing-card:first-child h3 {
+  font-size: 32px;
+}
+
+.writing-card:first-child p {
+  font-size: 17px;
+}

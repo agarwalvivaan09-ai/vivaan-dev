@@ -232,3 +232,54 @@ a {
   margin-bottom: 20px;
   line-height: 1.6;
 }
+/* PROJECTS PAGE */
+
+.projects-container {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.projects-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* PROJECT CARD */
+
+.project-card {
+  border: 1px solid var(--border);
+  padding: 25px;
+  border-radius: 12px;
+  background: #fff;
+
+  transition: all 0.25s ease;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 15px;
+  color: var(--subtext);
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}

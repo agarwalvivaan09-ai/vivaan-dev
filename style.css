@@ -307,3 +307,17 @@ a {
 
   transition: all 0.25s ease;
 }
+
+.project-card .role {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.project-card small {
+  display: block;
+  margin-top: 6px;
+  color: #aaa;
+  font-size: 0.85rem;
+}

@@ -1054,3 +1054,81 @@ body {
   display: block !important;
   font-size: 18px;
 }
+/* ========================= */
+/* MOBILE GLOBAL FIX */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  /* NAV */
+
+  nav {
+    padding: 15px 20px !important;
+  }
+
+  nav ul {
+    gap: 12px;
+  }
+
+  /* HERO */
+
+  .hero {
+    flex-direction: column !important;
+    text-align: left !important;
+    padding: 60px 20px !important;
+    gap: 30px !important;
+  }
+
+  .hero-left h2 {
+    font-size: 34px !important;
+  }
+
+  .hero-left .intro {
+    font-size: 18px;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+  }
+
+  .hero-right img {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+  }
+
+  /* PROJECTS */
+
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .projects-container {
+    padding: 60px 20px;
+  }
+
+  /* WRITING */
+
+  .writing-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .writing-container {
+    padding: 60px 20px;
+  }
+
+  /* ABOUT */
+
+  .about {
+    margin: 80px auto !important;
+    padding: 0 20px !important;
+  }
+
+  /* CONTACT */
+
+  .contact {
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+
+}

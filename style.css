@@ -978,3 +978,19 @@ body {
     padding: 80px 20px !important;
   }
 
+.hero {
+  padding-top: 100px !important;
+  padding-bottom: 80px !important;
+}
+
+.hero-left h2 {
+  letter-spacing: -1px;
+}
+
+.hero-right img {
+  transition: transform 0.3s ease;
+}
+
+.hero-right img:hover {
+  transform: scale(1.03);
+}

@@ -169,7 +169,7 @@ footer {
 
 /* LINKS GLOBAL */
 a {
-  color: inherit;
+  color: var(--text);
 }
 
 /* ========================= */
@@ -1039,4 +1039,18 @@ body {
 .contact-links a:hover {
   color: var(--accent);
   border-color: var(--accent);
+}
+
+/* CONTACT HARD FIX — FINAL */
+
+.contact-links {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 18px !important;
+}
+
+.contact-links a {
+  display: block !important;
+  font-size: 18px;
 }

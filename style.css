@@ -456,24 +456,28 @@ a {
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 25px;
   margin-top: 30px;
 }
 
 .metrics-grid div {
   border: 1px solid var(--border);
   padding: 25px;
-  border-radius: 14px;
+  border-radius: 16px;
   text-align: center;
-  transition: 0.2s;
+  background: #fff;
+
+  transition: all 0.25s ease;
 }
 
 .metrics-grid div:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
 }
 
 .metrics-grid h3 {
-  font-size: 26px;
+  font-size: 28px;
+  margin-bottom: 5px;
 }
 
 .metrics-grid p {
@@ -530,4 +534,24 @@ a {
 .certificate-btn:hover {
   background: var(--text);
   color: #fff;
+}
+.case {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.case-section {
+  margin-top: 70px;
+}
+
+.case-section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  letter-spacing: -0.3px;
+}
+
+.case-section p {
+  line-height: 1.8;
+  color: var(--subtext);
 }

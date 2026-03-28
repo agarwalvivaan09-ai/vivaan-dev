@@ -555,3 +555,80 @@ a {
   line-height: 1.8;
   color: var(--subtext);
 }
+/* ========================= */
+/* WRITING PAGE */
+/* ========================= */
+
+.writing-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.writing-header {
+  margin-bottom: 50px;
+}
+
+.writing-header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.writing-header p {
+  font-size: 18px;
+  color: var(--subtext);
+}
+
+/* GRID */
+
+.writing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+
+.writing-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 25px;
+  border-radius: 14px;
+  background: #fff;
+
+  transition: all 0.25s ease;
+}
+
+.writing-card .date {
+  font-size: 13px;
+  color: var(--subtext);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.writing-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.writing-card p {
+  font-size: 15px;
+  color: var(--subtext);
+}
+
+/* HOVER */
+
+.writing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  border-color: #ddd;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .writing-grid {
+    grid-template-columns: 1fr;
+  }
+}

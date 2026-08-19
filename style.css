@@ -2551,3 +2551,111 @@ footer {
   }
 
 }
+/* =========================================================
+   TECHSEVA CASE STUDY
+   ========================================================= */
+
+.techseva-case {
+  max-width: 900px;
+}
+
+
+/* PROCESS GRID */
+
+.techseva-process {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 14px;
+
+  margin-top: 35px;
+}
+
+
+.techseva-process > div {
+  padding: 28px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 12px;
+
+  background: #fff;
+}
+
+
+.techseva-process span {
+  display: block;
+
+  font-size: 10px;
+
+  letter-spacing: 1.5px;
+
+  color: #999;
+
+  margin-bottom: 25px;
+}
+
+
+.techseva-process h3 {
+  font-size: 19px;
+
+  margin-bottom: 9px;
+}
+
+
+.techseva-process p {
+  font-size: 14px !important;
+
+  line-height: 1.7 !important;
+
+  color: #666 !important;
+
+  margin-bottom: 0 !important;
+}
+
+
+/* INSIGHT */
+
+.techseva-insight {
+  padding: 45px;
+
+  margin-left: -45px;
+
+  margin-right: -45px;
+
+  background: #f6f6f6;
+
+  border-radius: 14px;
+}
+
+
+.techseva-insight h2 {
+  font-size: 34px !important;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .techseva-process {
+    grid-template-columns: 1fr;
+  }
+
+
+  .techseva-insight {
+    margin-left: 0;
+
+    margin-right: 0;
+
+    padding: 30px 24px;
+  }
+
+
+  .techseva-insight h2 {
+    font-size: 28px !important;
+  }
+
+}

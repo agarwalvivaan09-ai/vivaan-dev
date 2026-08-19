@@ -2659,3 +2659,259 @@ footer {
   }
 
 }
+/* =========================================================
+   MIST CASE STUDY
+   ========================================================= */
+
+.mist-case {
+  max-width: 900px;
+}
+
+
+/* PRODUCT GRID */
+
+.mist-product-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 14px;
+
+  margin-top: 35px;
+}
+
+
+.mist-product-grid > div {
+  padding: 28px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 12px;
+
+  background: #fff;
+}
+
+
+.mist-product-grid span {
+  display: block;
+
+  font-size: 10px;
+
+  letter-spacing: 1.5px;
+
+  color: #999;
+
+  margin-bottom: 25px;
+}
+
+
+.mist-product-grid h3 {
+  font-size: 19px;
+
+  margin-bottom: 9px;
+}
+
+
+.mist-product-grid p {
+  font-size: 14px !important;
+
+  line-height: 1.7 !important;
+
+  color: #666 !important;
+
+  margin-bottom: 0 !important;
+}
+
+
+/* STEPS */
+
+.mist-steps {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 14px;
+
+  margin-top: 35px;
+}
+
+
+.mist-steps > div {
+  padding: 28px;
+
+  background: #fafafa;
+
+  border-top: 2px solid #111;
+}
+
+
+.mist-steps span {
+  display: block;
+
+  font-size: 10px;
+
+  letter-spacing: 1.5px;
+
+  color: #999;
+
+  margin-bottom: 25px;
+}
+
+
+.mist-steps h3 {
+  font-size: 18px;
+
+  line-height: 1.35;
+
+  margin-bottom: 10px;
+}
+
+
+.mist-steps p {
+  font-size: 14px !important;
+
+  line-height: 1.7 !important;
+
+  color: #666 !important;
+
+  margin-bottom: 0 !important;
+}
+
+
+/* BUSINESS GRID */
+
+.mist-business-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 14px;
+
+  margin-top: 35px;
+}
+
+
+.mist-business-grid > div {
+  padding: 25px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+
+.mist-business-grid h3 {
+  font-size: 18px;
+
+  margin-bottom: 8px;
+}
+
+
+.mist-business-grid p {
+  font-size: 14px !important;
+
+  line-height: 1.65 !important;
+
+  color: #666 !important;
+
+  margin-bottom: 0 !important;
+}
+
+
+/* LEARNING */
+
+.mist-learning-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 10px;
+
+  margin-top: 30px;
+}
+
+
+.mist-learning-grid > div {
+  padding: 18px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  background: #fff;
+}
+
+
+.mist-learning-grid h3 {
+  font-size: 14px;
+
+  font-weight: 500;
+
+  margin: 0;
+}
+
+
+/* INSIGHT */
+
+.mist-insight {
+  margin-top: 100px;
+
+  padding: 55px 0;
+
+  border-top: 1px solid #111;
+
+  border-bottom: 1px solid #111;
+}
+
+
+.mist-insight h2 {
+  max-width: 760px;
+
+  font-size: 38px;
+
+  line-height: 1.25;
+
+  letter-spacing: -1px;
+
+  margin-top: 15px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .mist-product-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .mist-steps {
+    grid-template-columns: 1fr;
+  }
+
+
+  .mist-business-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .mist-learning-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .mist-insight {
+    margin-top: 70px;
+
+    padding: 40px 0;
+  }
+
+
+  .mist-insight h2 {
+    font-size: 29px;
+  }
+
+}

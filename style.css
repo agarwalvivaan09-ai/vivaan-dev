@@ -1684,3 +1684,150 @@ footer {
   }
 
 }
+
+/* =========================================================
+   WRITING PAGE UPGRADE
+   ========================================================= */
+
+.writing-featured {
+  margin-bottom: 80px;
+}
+
+
+.writing-featured-card {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  min-height: 300px;
+
+  padding: 36px;
+
+  background: #111111;
+
+  color: #ffffff;
+
+  border-radius: 14px;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.writing-featured-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+
+.writing-featured-card .featured-type {
+  color: #aaaaaa;
+}
+
+
+.writing-featured-card h2 {
+  max-width: 800px;
+
+  font-size: 36px;
+
+  line-height: 1.2;
+
+  letter-spacing: -1px;
+
+  margin-top: 18px;
+
+  margin-bottom: 18px;
+}
+
+
+.writing-featured-card p {
+  max-width: 760px;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+
+  color: #cccccc;
+}
+
+
+.writing-featured-meta {
+  display: block;
+
+  margin-top: 25px;
+
+  font-size: 12px;
+
+  color: #999999;
+}
+
+
+.writing-featured-card .featured-link {
+  margin-top: 35px;
+
+  font-size: 13px;
+}
+
+
+.writing-section-heading {
+  margin-bottom: 30px;
+}
+
+
+.writing-section-heading h2 {
+  font-size: 30px;
+
+  letter-spacing: -0.7px;
+}
+
+
+/* CATEGORY LABEL */
+
+.writing-category {
+  display: inline-block;
+
+  font-size: 10px;
+
+  letter-spacing: 1.1px;
+
+  text-transform: uppercase;
+
+  color: var(--light-muted);
+
+  margin-bottom: 10px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .writing-featured-card {
+    padding: 27px;
+
+    min-height: 330px;
+  }
+
+
+  .writing-featured-card h2 {
+    font-size: 28px;
+  }
+
+
+  .writing-featured-card p {
+    font-size: 15px;
+  }
+
+
+  .writing-featured {
+    margin-bottom: 60px;
+  }
+
+}

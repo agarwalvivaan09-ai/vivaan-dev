@@ -1860,3 +1860,51 @@ footer {
 .case-back:hover {
   color: var(--text);
 }
+/* =========================================================
+   CASE STUDY BOTTOM LINKS
+   ========================================================= */
+
+.case-links-list {
+  margin-top: 25px;
+}
+
+.case-links-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.case-links-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.case-links-list a {
+  display: inline-block;
+  padding: 7px 0;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.case-links-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.case-back {
+  display: inline-block;
+  margin-top: 55px;
+  padding-top: 25px;
+  border-top: 1px solid var(--border);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.case-back:hover {
+  color: var(--text);
+}

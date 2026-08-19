@@ -1334,3 +1334,165 @@ footer {
   }
 
 }
+
+/* =========================================================
+   RESEARCH PAGE
+   CLEANER ACADEMIC / RESEARCH LAYOUT
+   ========================================================= */
+
+
+/* Research introduction */
+
+.research-intro {
+  max-width: 760px;
+  margin-bottom: 45px;
+}
+
+.research-intro p {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+
+/* Research cards */
+
+.research-card {
+  min-height: 0 !important;
+
+  margin-bottom: 16px;
+
+  padding: 34px 36px !important;
+
+  border-radius: 10px;
+
+  display: block !important;
+}
+
+
+/* Category */
+
+.research-card .featured-type {
+  display: block;
+
+  margin-bottom: 12px;
+}
+
+
+/* Research title */
+
+.research-card h3 {
+  font-size: 27px;
+
+  line-height: 1.25;
+
+  letter-spacing: -0.6px;
+
+  margin-bottom: 8px;
+}
+
+
+/* Role / programme */
+
+.research-card .role {
+  margin-bottom: 22px;
+}
+
+
+/* Description */
+
+.research-card .description {
+  max-width: 900px;
+
+  font-size: 15.5px;
+
+  line-height: 1.7;
+
+  margin-bottom: 12px;
+}
+
+
+/* Research keywords */
+
+.research-card .impact {
+  margin-top: 20px;
+
+  font-size: 12px;
+
+  color: var(--light-muted);
+
+  letter-spacing: 0.1px;
+}
+
+
+/* Read link */
+
+.research-card > a {
+  display: inline-block;
+
+  margin-top: 24px;
+
+  font-size: 13px;
+
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+
+.research-card > a:hover {
+  color: var(--accent);
+}
+
+
+/* Subtle hover instead of giant card movement */
+
+.research-card:hover {
+  transform: none;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.035);
+}
+
+
+/* Research approach section */
+
+.research-card + .research-card {
+  margin-top: 0;
+}
+
+
+/* Make the final research section feel distinct */
+
+.research-card ~ .currently {
+  margin-top: 70px;
+}
+
+
+/* =========================================================
+   RESEARCH MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .research-intro {
+    margin-bottom: 30px;
+  }
+
+  .research-intro p {
+    font-size: 16px;
+  }
+
+  .research-card {
+    padding: 26px 22px !important;
+  }
+
+  .research-card h3 {
+    font-size: 23px;
+  }
+
+  .research-card .description {
+    font-size: 15px;
+  }
+
+}

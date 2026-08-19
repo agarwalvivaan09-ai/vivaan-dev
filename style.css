@@ -1496,3 +1496,191 @@ footer {
   }
 
 }
+/* =========================================================
+   ABOUT PAGE
+   ========================================================= */
+
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 100px 40px 120px;
+}
+
+
+/* HEADER */
+
+.about-header {
+  max-width: 760px;
+  margin-bottom: 75px;
+}
+
+
+.about-header h1 {
+  font-size: 58px;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+
+.about-lead {
+  font-size: 23px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+
+/* MAIN STORY */
+
+.about-content {
+  max-width: 760px;
+}
+
+
+.about-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #222222;
+  margin-bottom: 27px;
+}
+
+
+.about-content p:first-child {
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+
+/* INTERESTS */
+
+.about-interests {
+  margin-top: 90px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+
+  border-top: 1px solid var(--border);
+  padding-top: 35px;
+}
+
+
+.about-interest {
+  padding: 25px 0;
+}
+
+
+.about-interest span {
+  display: block;
+
+  font-size: 11px;
+  letter-spacing: 1.5px;
+
+  color: var(--light-muted);
+
+  margin-bottom: 28px;
+}
+
+
+.about-interest h2 {
+  font-size: 23px;
+  letter-spacing: -0.5px;
+
+  margin-bottom: 10px;
+}
+
+
+.about-interest p {
+  font-size: 14px;
+  line-height: 1.65;
+
+  color: var(--muted);
+}
+
+
+/* PERSONAL */
+
+.about-personal {
+  max-width: 760px;
+
+  margin-top: 90px;
+
+  padding-top: 35px;
+
+  border-top: 1px solid var(--border);
+}
+
+
+.about-personal p:last-child {
+  font-size: 16px;
+  line-height: 1.8;
+
+  color: var(--muted);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .about-page {
+    padding:
+      70px
+      20px
+      90px;
+  }
+
+
+  .about-header {
+    margin-bottom: 55px;
+  }
+
+
+  .about-header h1 {
+    font-size: 44px;
+
+    letter-spacing: -1.5px;
+  }
+
+
+  .about-lead {
+    font-size: 19px;
+  }
+
+
+  .about-content p {
+    font-size: 16px;
+
+    line-height: 1.8;
+  }
+
+
+  .about-content p:first-child {
+    font-size: 18px;
+  }
+
+
+  .about-interests {
+    grid-template-columns: 1fr;
+
+    margin-top: 65px;
+  }
+
+
+  .about-interest {
+    padding:
+      20px
+      0;
+
+    border-bottom: 1px solid var(--border);
+  }
+
+
+  .about-personal {
+    margin-top: 65px;
+  }
+
+}

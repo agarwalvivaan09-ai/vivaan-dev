@@ -1908,3 +1908,13 @@ footer {
 .case-back:hover {
   color: var(--text);
 }
+.research-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.research-actions a {
+  display: inline-block;
+}
